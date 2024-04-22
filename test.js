@@ -37,6 +37,8 @@ let newsCategory = [
   "technology",
   "startup",
   "entertainment",
+  "miscellaneous",
+  "hatke",
   "science",
   "automobile",
 ];
@@ -52,7 +54,7 @@ getNews("all");
 function getNews(newsCategoryName) {
   xhr.open(
     "GET",
-    `https://inshortsapi.vercel.app/news?category=${newsCategoryName}`,
+    https://inshortsapi.vercel.app/news?category=${newsCategoryName},
     true
   );
 
